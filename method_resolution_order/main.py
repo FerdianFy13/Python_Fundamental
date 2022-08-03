@@ -1,17 +1,17 @@
 # method resolution order adalah urutan method yang akan dijalankan ketika menggunakan keyword super() dalam penggunaan multiple inheritance
 class A:
     def show(self):
-        print("A")
+        print("laravel")
 
 
 class B:
     def show(self):
-        print("B")
+        print("codeigniter")
 
 
 class C(A, B):
     def show(self):
-        print("C")
+        print("flutter")
 
 
 mil = C()
